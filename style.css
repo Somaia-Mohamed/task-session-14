@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+.continer {
+  
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr); /* Adjust the number of columns as needed */
+  gap: 10px;
+  position: relative;
+  transition: transform 0.5s;
+}
+.images {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.imagesflib{
+  transform:rotatey(180deg);
+  transition: transform 1s ease-in;
+  
+}
+.hidden{
+  display: none;
+}
+.btn{
+  margin:30px 45% ;
+  width: 20%;
+  cursor: pointer;
+  height: 40px;
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(233, 13, 13);
+  border-radius: .5px;
+  background-color: azure;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+}
